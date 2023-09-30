@@ -529,32 +529,32 @@ h5{
 
 .cse 
 {
-    background: url('cseimg.avif');
+    background: url('./cseimg.avif');
     color: whitesmoke;
 }
 .ece 
 {
-    background: url('eceimg.jpg');
+    background: url('./eceimg.jpg');
     color: whitesmoke;
 }
 .bio
 {
     color: white;
-    background: url('bioimg.jpg');
+    background: url('./bioimg.jpg');
 }
 .civil 
 {
     color: whitesmoke;
-    background:url('civil.jpg') ;
+    background:url('./civil.jpg') ;
 }
 .eee
 {
-      background: url('eeeimg.jpg');
+      background: url('./eeeimg.jpg');
       color: white;
 }
 
 .mech
 {
-   background: url('mechimg.jpg');
+   background: url('./mechimg.jpg');
    color: white;
 }
