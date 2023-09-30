@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="./CSS File/Style.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <asp:TextBox ID="TextBox1" runat="server" oncopy="return false" onpaste="return false" oncut="return false"></asp:TextBox>
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+<body>
+
+
+    <div class="container">
+
+        <div class="header">
+           
+            <div class="bar1" onclick="OpenMenu1()"><i class="fas fa-bars"></i></div>
+            <div class="title">
+                 <h2>CGPA GENRATOR</h2>
+            </div>
+           
+             <img id="logo" src="./images/psrrr.png">
+        </div>
+
+
+
+<!-- ------------------------------------------------------------------------------------- -->
+
+ <div class="hmenu">
+
+     <div class="me"><div class="bar2" id="bar2" onclick="OpenMenu2()"><i class="fas fa-bars" style=" font-size: 20px; color: greenyellow; "></i>
+</div>
+<h1 class="h">Menu</h1></div>
+      
+<a href="index.html" >HOME</a>
+              
+
+             <div class="sem2020">
+                <a href="">Semaster 1</a>
+                <a href="">Semaster 2</a>
+                <a href="">Semaster 3</a>
+                <a href="">Semaster 4</a>
+                <a href="">Semaster 5</a>
+                <a href="">Semaster 6</a>
+                <a href="">Semaster 7</a>
+                <a href="">Semaster 8</a>
+          </div>   
+
+            
+          <div class="sem2021">
+                <a href="http://results.worldcolleges.info/psrresults/may2022/index.php" target="blank">Semaster 1</a>
+                <a href="http://results.worldcolleges.info/psrresults/june2022/index.php" target="blank">Semaster 2</a>
+                <a href="http://results.worldcolleges.info/psrresults/nov2022/index.php" target="blank">Semaster 3</a>
+                <a href="http://results.worldcolleges.info/psrresults/apr2023/index.php" target="blank">Semaster 4</a>
+                <a href="#" target="blank" onclick="Resultmsg()">Semaster 5</a>
+                <a href="#" target="blank" onclick="Resultmsg()">Semaster 6</a>
+                <a href="#" target="blank" onclick="Resultmsg()">Semaster 7</a>
+                <a href="#" target="blank" onclick="Resultmsg()">Semaster 8</a>
+          </div>
+          <div class="sem2022">
+            
+                 <a href="http://results.worldcolleges.info/psrresults/nov2022/index.php">Semaster 1</a>
+                <a href="http://results.worldcolleges.info/psrresults/apr2023/index.php">Semaster 2</a>
+                <a href="" target="blank" onclick="Resultmsg()">Semaster 3</a>
+                <a href="" target="blank" onclick="Resultmsg()">Semaster 4</a>
+                <a href="" target="blank" onclick="Resultmsg()">Semaster 5</a>
+                <a href="" target="blank" onclick="Resultmsg()">Semaster 6</a>
+                <a href="" target="blank" onclick="Resultmsg()">Semaster 7</a>
+                <a href="" target="blank" onclick="Resultmsg()">Semaster 8</a>
+          </div>
+           <div class="sem2023">
+            
+                 <a href="">Semaster 1</a>
+                <a href="">Semaster 2</a>
+                <a href="">Semaster 3</a>
+                <a href="">Semaster 4</a>
+                <a href="">Semaster 5</a>
+                <a href="">Semaster 6</a>
+                <a href="">Semaster 7</a>
+                <a href="">Semaster 8</a>
+          </div>
+
+
+        <div class="regulation">
+          
+           <a href="./UG-2019Regulation/CSE-UG-R2019.pdf" target="blank">Computer Science Enginerring</a>
+          <a href="./UG-2019Regulation/UG-ECE-R2019.pdf" target="blank" >Electronics and Communication Engineering</a>
+          <a href="./UG-2019Regulation/BME-UG-R2019.pdf" target="blank">Biomedical Enginerring</a>
+          <a href="./UG-2019Regulation/Civil-UG-R2019.pdf" target="blank">Civil Engineering</a>
+          <a href="./UG-2019Regulation/EEE-UG-R2019.pdf" target="blank">Electrical and Electronics Engineering</a>
+          <a href="./UG-2019Regulation/UG-Mech-R2019.pdf" target="blank">Mechanical Engineering</a>
+
+        </div>
+         
+         
+          <div class="mainmenu">
+          
+        
+          <a href="CgpaCalculate.html">Calculation</a>
+
+          <div class="dropdown">
+
+          <a href="#" >Get Result</a>
+
+          <div class="dropdowncontent">
+            <a href="#" onclick="sem2020()">2020-2024 Batch</a>
+            <a href="#" onclick="sem2021()">2021-2025 Batch</a>
+            <a href="#" onclick="sem2022()">2022-2026 Batch</a>
+            <a href="#" onclick="sem2023()">2023-2027 Batch</a>
+
+          </div>
+                      </div>
+
+                        <a href='QRCode.html'>Get your Result Genrate QR</a>
+          <a href="#" onclick="regulation()">Downlod UG-2019 Regulation</a>
+         </div>
+
+         </div>
+
+
+
+
+
+
+
+
+            
+        <div class="Menu_1">
+            <a href="index.html" class="btn1 barbtn">Home</a>
+            <a href="Files/Calculation.html" class="btn2  barbtn">Calculation</a>
+            <a href="Files/Results.html" class="btn3 barbtn">Get results</a>
+            <div class="barbtn close" onclick="MenuClose()"><i class="las la-angle-left"></i></div>
+        </div>
+    
+        <div class="row">
+            
+                <a class="links cse" href="CSE.html"><p class="Link"><b>Computer Science</b></p></a>
+            
+                <a class="links ece" href="#" onclick="Updatemsg()"><p class="Link"><b>Electronics and communication</b></p></a>
+            
+                <a class="links civil" href="#" onclick="Updatemsg()"><p class="Link"><b>Civil</b></p></a>
+            
+                <a class="links eee" href="#" onclick="Updatemsg()"><p class="Link"><b>Electrical and electronics</b></p></a>
+            
+                <a class="links bio" href="#" onclick="Updatemsg()"><p class="Link"><b>Biomedical</b></p></a>
+            
+                <a class="links mech" href="#" onclick="Updatemsg()"><p class="Link"><b>Mechanical</b></p></a>
+            
+            <div class="foot">
+                    <p class="txt">Contact us</p>
+                    <a href="mailto:rabinma11022004@gmail.com">Click here</a>
+                    <p class="txt">Developed by</p>
+                    <i class="lab la-html5"></i>           
+                    <i class="lab la-css3-alt"></i>    
+                    <i class="lab la-js"></i>
+           </div>
+        </div>
+
+    </div>
+
+    <script src="./Script File/Script.js"></script>
+    <script type="text/javascript" src="./Script File/Action.js"></script>
+</body>
+</html>
