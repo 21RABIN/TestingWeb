@@ -534,27 +534,27 @@ h5{
 }
 .ece 
 {
-    background: url('Images/eceimg.jpg');
+    background: url('../eceimg.jpg');
     color: whitesmoke;
 }
 .bio
 {
     color: white;
-    background: url('./bioimg.jpg');
+    background: url('../bioimg.jpg');
 }
 .civil 
 {
     color: whitesmoke;
-    background:url('./civil.jpg') ;
+    background:url('../civil.jpg') ;
 }
 .eee
 {
-      background: url('./eeeimg.jpg');
+      background: url('../eeeimg.jpg');
       color: white;
 }
 
 .mech
 {
-   background: url('./mechimg.jpg');
+   background: url('../mechimg.jpg');
    color: white;
 }
